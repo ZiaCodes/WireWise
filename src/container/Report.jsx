@@ -35,14 +35,6 @@ const Report = () => {
   const navigate = useNavigate();
 
 
-  const handleRedirectToAllUser = () =>{
-    if(user.role === "admin"){
-        return navigate('/settings/admin-page/all-user');
-    }else{
-       return  toast.warning(`You are not authorized!`, ToastOption);
-    }
-}
-
   const opneTicket =() =>{
 
       let open = [];

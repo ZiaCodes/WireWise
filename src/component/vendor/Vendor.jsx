@@ -174,31 +174,6 @@ const Vendor = () => {
     </MainContainer>
 
     <div className='lg:mt-10 mt-80'>
-    {/* <TableContainer>
-        <VendorTableHead/>
-        {
-            tickets?.map((dataField,index) =>{
-                return (
-                    <VendorTableBody
-                style={ (dataField.age > 3 && dataField.status !=="Resolved" ? "bg-red-600 text-white" : ( dataField.status === "Resolved" ? "bg-green-600 text-white" : null)) }
-                key={index}
-                serialNumber={index+1}
-                ticketNo={dataField.ticketNo}
-                reportedDate={dataField.Date}
-                age={dataField.age}
-                ageSlab={dataField.slab}
-                type={dataField.type}
-                userName={dataField.name}
-                location={dataField.location}
-                status={dataField.status}
-                remarks={dataField.remarks}
-                
-              />
-              )
-            })
-          } 
- 
-    </TableContainer> */}
     <InTableContainer>
     {
         tickets?.length > 0 ?

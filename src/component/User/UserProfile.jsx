@@ -18,7 +18,7 @@ import { toast } from 'react-toastify';
 const findEmailByADID = (email) =>{
     let isADEmail = email.startsWith('8');
     if(isADEmail)
-        return "ADID Email is not supported."
+        return "Email is not supported."
     
     return email;
 }

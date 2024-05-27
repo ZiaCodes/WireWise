@@ -221,7 +221,7 @@ const Request = () => {
         deleteContextTicket={()=>deleteRowItem(contextTicket)}
         openEditWindow={()=>editRowItem(ContextEditTicket)}
         ticketNumber={contextTicket}
-        serviceNowLink={`https://tatasteel.service-now.com/now/nav/ui/search/0f8b85d0c7922010099a308dc7c2606a/params/search-term/${contextTicket}/global-search-data-config-id/c861cea2c7022010099a308dc7c26041/back-button-label/ServiceNow/search-context/now%2Fnav%2Fui`}
+        serviceNowLink={`your-ticket${contextTicket}`}
       />
     }
 

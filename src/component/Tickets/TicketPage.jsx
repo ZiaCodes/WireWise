@@ -87,7 +87,7 @@ useEffect(()=>{
         <div className='flex justify-start font-bold items-left m-4'>
           <span className={targetTicket.status !== 'Resolved' ? 'font-bold text-white bg-red-600 p-2 rounded-sm' : 'font-bold text-white bg-green-600 p-2 rounded-sm'}>
             <a className='shadow-none p-0' target='_blank'
-            href={`https://tatasteel.service-now.com/now/nav/ui/search/0f8b85d0c7922010099a308dc7c2606a/params/search-term/${ticket}/global-search-data-config-id/c861cea2c7022010099a308dc7c26041/back-button-label/Incident%20-%2005750836/search-context/now%2Fnav%2Fui`}>
+            href={`your-link${ticket}`}>
             {ticket}
             </a>
           </span>

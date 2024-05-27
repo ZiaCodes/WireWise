@@ -263,7 +263,7 @@ const TableLayout = () => {
       y={contextMenu.y} 
       closeContextMenu={contextMenuClose}
       ticketNumber={contextTicket}
-      serviceNowLink={`https://tatasteel.service-now.com/now/nav/ui/search/0f8b85d0c7922010099a308dc7c2606a/params/search-term/${contextTicket}/global-search-data-config-id/c861cea2c7022010099a308dc7c26041/back-button-label/Incident%20-%2005750836/search-context/now%2Fnav%2Fui`}
+      serviceNowLink={`your-link${contextTicket}`}
       openEditWindow={()=>editRowItem(ContextEditTicket)}
       deleteContextTicket={()=>deleteRowItem(contextTicket)}
       addToFavList={()=> {
@@ -357,7 +357,7 @@ const TableLayout = () => {
         </div>
     {
       !tableData?.length > 0 ? 
-      <Instruction sheetName="./24-Apr-2024.xlsx" TypeName="Incident">
+      <Instruction sheetName="./incident.xlsx" TypeName="Incident">
         {
           isFileUploadModelActive ? 
           <UploadModel onClick={() => setIsFileUploadModelActive(false)}/> 
