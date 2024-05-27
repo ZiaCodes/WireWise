@@ -1,0 +1,113 @@
+{
+    "short_name": "Imtsl",
+    "name": "Imtsl",
+    "categories": [
+      "Management",
+      "Network",
+      "workflow"
+      ],
+      "description": "Manage your Daily Incident call by exporting your excel sheet.",
+    "screenshots": [
+      {
+      "src": "/img/login.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "/img/dashboard.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "/img/report.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "/img/setting.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "/img/user-profile.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "/img/dark-dashboard.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "/img/dark-edit.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      }
+      ],
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "shortcuts":[
+      {
+        "name":"Add user",
+        "short_name": "Add user",
+        "description": "Add a New User",
+        "url": "/settings/admin-page/?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [{"src":"https://todoly1.netlify.app/icons/edit.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }]
+
+      },
+      {
+        "name":"Report",
+        "short_name": "Report",
+        "description": "Incident Report",
+        "url": "/report?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [{"src":"https://todoly1.netlify.app/icons/feed.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }]
+
+      },
+      {
+        "name":"Setting",
+        "short_name": "Setting",
+        "description": "Update Your Setting",
+        "url": "/settings?utm_source=jumplist&utm_medium=shortcut",
+        "icons": [{"src":"https://todoly1.netlify.app/icons/edit.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }]
+  }
+],
+    "start_url": "/",
+    "id":"/?home=true",
+    "display_override": ["fullscreen", "minimal-ui"],
+    "display": "standalone",
+    "theme_color": "#f1f1f1",
+    "background_color": "#f1f1f1",
+    "launch_handler": {
+      "route_to": "existing-client",
+      "navigate_existing_client": "never"
+    },
+    "url_handlers":[
+      {
+        "origin":"https://imtsl.vercel.app"
+      }
+    ]
+  }
